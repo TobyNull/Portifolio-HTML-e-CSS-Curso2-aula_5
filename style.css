@@ -12,6 +12,24 @@ body{
     color: #F6F6F6;
 }
 
+.cabecalho__menu{
+    margin: 65px 360px;
+    display: flex;
+    gap: 80px;
+    color: #22D4FD;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.cabecalho__menu__link{
+    text-decoration: none;
+}
+.cabecalho__menu__link:hover{
+    text-decoration: underline;
+    transition: 1s;
+}
+
 .titulo-destaque{
     color: #22D4FD;
 }
@@ -83,4 +101,29 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+
+/*Pagina sobre mim*/
+
+.sobremim{
+    padding: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.titulo-destaque_Sobremim{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.paragrado_sobremim{
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
